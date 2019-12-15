@@ -1,0 +1,11 @@
+{
+  "name": "tommyroberts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/glensargent/tommyroberts.git",
+  "author": "Glen Sargent <glensarg@hotmail.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
