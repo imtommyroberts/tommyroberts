@@ -105,6 +105,7 @@ svg {
 #lenny {
   display: block;
   margin: 72px 0px;
+  max-width: 100%;
 }
 
 footer ul {
@@ -118,4 +119,13 @@ footer ul li {
 
 footer ul li:first-of-type {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 684px) {
+  .wrapper {
+    padding: 112px 30px;
+  }
+  .hide-mobile {
+    display: none;
+  }
 }
