@@ -67,10 +67,18 @@
     }
 
     a {
+      display: inline-block;
       text-decoration: underline;
       color: inherit;
       font-size: 12px;
       line-height: 15px;
+    }
+
+    a:hover {
+      text-decoration: none;
+      background: oldlace;
+      padding: 15px 15px;
+      transform: rotate3d(1, 1, 1, 45deg);
     }
 
     a:visited {
@@ -109,6 +117,15 @@
     .wrapper {
       padding: 112px 145px;
       max-width: 750px;
+    }
+
+    .body-link {
+      font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color
     }
 
     /* .bold {
@@ -167,8 +184,8 @@
     <nav id="nav">
       <ul>
         <li><a href="mailto:imtommyroberts@gmail.com">contact</a></li>
-        <li class="hide-mobile"><a href="https://twitter.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">twitter</a></li>
-        <li class="hide-mobile"><a href="https://github.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">github</a></li>
+        <li><a href="https://twitter.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">twitter</a></li>
+        <li><a href="https://github.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">github</a></li>
         <li><a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank" rel="noopener noreferrer">runescape</a></li>
       </ul>
     </nav>
@@ -178,13 +195,13 @@
         I’m an independent product designer based in London, trying to design products that solve problems.
       </p>
       <p>
-        At the moment I'm working with <a href="https://about.sourcegraph.com/">Sourcegraph</a>. We're working on universal code search, and a world where everyone builds software.
+        At the moment I'm working with <a class="body-link" href="https://about.sourcegraph.com/" target="_blank" rel="noopener noreferrer">Sourcegraph</a>. We're working on universal code search, and a world where everyone builds software.
       </p>
       <p>
         I’m also taking on select freelance work, and pursuing personal projects.
       </p>
       <p>
-        If you’re a person who cares deeply about what they do, and is trying to solve meaningful problems, then please <a href="mailto:imtommyroberts@gmail.com">click right here and get in touch.</a>
+        If you’re a person who cares deeply about what they do, and is trying to solve meaningful problems, then please <a class="body-link" href="mailto:imtommyroberts@gmail.com">click right here and get in touch.</a>
       </p>
       <picture>
         <!-- <source srcset="img/mobile.gif" media="(max-width: 684px)">
@@ -195,7 +212,7 @@
 
     <footer>
       <p>
-        developed by <a href="https://glensargent.com">glen</a>, and me sort of :)
+        developed by <a href="https://glensargent.com" target="_blank" rel="noopener noreferrer">glen</a>, and me sort of :)
       </p>
     </footer>
   </div>
