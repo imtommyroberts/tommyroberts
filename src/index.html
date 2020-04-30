@@ -27,7 +27,7 @@
       margin: 0;
       padding: 0;
       border: 0;
-      font-size: 100%;
+      font-size: 32px;
       font: inherit;
       vertical-align: baseline;
     }
@@ -59,21 +59,25 @@
       font-family: 'IBM Plex Mono', monospace;
       font-weight: normal;
       color: white;
-      font-size: 16px;
-      line-height: 28px;
+      font-size: 32px;
+      line-height: 36px;
       background-color:black;
     }
 
     a {
       display: inline-block;
-      text-decoration: underline;
-      color: #FFEB95;
+      text-decoration: none;
+      color: white;
     }
 
     a:hover {
       text-decoration: none;
       color: #FFEB95;
       background-color: #32374D;
+    }
+
+    .nav {
+      text-decoration: underline;
     }
 
     .sourcegraph {
@@ -85,7 +89,11 @@
     }
 
     .contact {
-      color: #F78C6C;
+      color: #95EAE2;
+    }
+
+    .runescape {
+      color: #D261DD
     }
 
     p {
@@ -100,6 +108,7 @@
 
     nav ul li a {
       padding: 0px;
+      font-size: 14px;
     }
 
     nav ul li a:first-of-type {
@@ -118,7 +127,7 @@
 
     .wrapper {
       padding: 112px 145px;
-      max-width: 750px;
+      max-width: 1200px;
     }
 
     .body-link {
@@ -157,9 +166,10 @@
       margin-left: -10px;
     }
 
-    @media screen and (max-width: 684px) {
+    @media screen and (max-width: 768px) {
       .wrapper {
         padding: 112px 30px;
+        font-size: 24px;
       }
       .hide-mobile {
         display: none;
@@ -170,7 +180,6 @@
 <body>
   <div class="wrapper">
     <h1 class="bold">
-      Tommy Roberts/Product Designer
       <!-- <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="7" cy="7" r="7" fill="black"/>
         <rect x="3" y="4" width="2" height="2" fill="white"/>
@@ -180,16 +189,16 @@
     </h1>
     <nav id="nav">
       <ul>
-        <li><a href="mailto:imtommyroberts@gmail.com">Contact</a></li>
-        <li><a href="https://twitter.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-        <li><a href="https://github.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank" rel="noopener noreferrer">Runescape</a></li>
+        <li><a class="nav" href="mailto:imtommyroberts@gmail.com">Contact</a></li>
+        <li><a class="nav" href="https://twitter.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a class="nav" href="https://github.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a class="nav" href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank" rel="noopener noreferrer">Runescape</a></li>
       </ul>
     </nav>
     
     <section>
       <p>
-        Design is cool and I really like it. Right now my goals are to contribute to more useful things, meet and talk to lots of new people, and figure out what my 'designer voice' (sorry) is.
+        Hi I'm Tommy Roberts, a product designer who is currently trying to contribute to and build more useful things, meet and talk to lots of new people, and max his account on <a class="runescape" href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank" rel="noopener noreferrer">Runescape</a>. 
       </p>
       <p>
         Most of my day is spent working on <a class="sourcegraph" href="https://github.com/sourcegraph" target="_blank" rel="noopener noreferrer">Sourcegraph</a>, an open core tool for developers. We have a <a class="handbook" href="https://about.sourcegraph.com/handbook/design" target="_blank" rel="noopener noreferrer">handbook</a> full of information about the company, and there's even a section I've made all about design!
