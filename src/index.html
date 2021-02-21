@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+
+  <title>Tommy Roberts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="img/favicon_moon.png" />
@@ -10,221 +12,66 @@
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
     html { font-family: 'IBM Plex Mono', monospace; }
 
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 32px;
-      font: inherit;
-      vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure, 
-    footer, header, hgroup, menu, nav, section {
-      display: block;
-    }
     body {
-      line-height: 1;
-    }
-    ol, ul {
-      list-style: none;
-    }
-    blockquote, q {
-      quotes: none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-      content: '';
-      content: none;
-    }
-    table {
-      border-collapse: collapse;
-      border-spacing: 0;
-    }
-
-    body {
-      font-family: 'IBM Plex Mono', monospace;
-      font-weight: normal;
       color: white;
-      font-size: 16px;
-      line-height: 24px;
-      background-color:#060606;
-    }
-
-    a {
-      display: inline-block;
-      text-decoration: underline;
-      color: white;
-    }
-
-    a:hover {
-      text-decoration: none;
-      color: #FFEB95;
-      background-color: #32374D;
-    }
-
-    .nav {
-      text-decoration: underline;
-    }
-
-    .sourcegraph {
-      color: #FB6363;
-    }
-
-    .handbook {
-      color: #ADDB67;
-    }
-
-    .contact {
-      color: #95EAE2;
-    }
-
-    .runescape {
-      color: #D261DD
-    }
-
-    p {
-      margin-bottom: 20px;
-    }
-
-    nav ul li {
-      display: inline-block;
-      margin-top: 20px;
-      margin-bottom: 72px;
-    }
-
-    nav ul li a {
-      padding: 0px;
-      font-size: 14px;
-    }
-
-    nav ul li a:first-of-type {
-      margin-right: 16px;
+      background-color: black;
+      margin: auto;
+      max-width: 312px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      font-weight: 300;
     }
 
     h1 {
-      font-size: 16px;
-      line-height: 19px;
+      margin-top: 64px;
+      margin-bottom: 32px;
+      font-size: 24px;
+      font-family: Georgia, serif;
     }
 
-    svg {
-      position: relative;
-      left: 12px;
+    h2 {
+      font-size: 20px;
     }
 
-    .wrapper {
-      padding: 112px 145px;
-      max-width: 600px;
-    }
-
-    .body-link {
-      color: #FFEB95;
-    }
-
-    /* .bold {
-      font-weight: bold;
-    }
-
-    .bold a {
-      font-size: inherit;
-      font-weight: normal;
-    } */
-
-    /* #character {
-      height: 32px;
-      position: relative;
-      top: 5px;
-    }
-      */
-    #lenny {
-      display: block;
-      margin: 140px 0px;
-      width: 100%;
-    }
-
-    footer {
+    .home-chat {
+      margin-top: 128px;
       font-size: 12px;
-      margin-top: 250px;
     }
 
-    footer ul li a {
-      display: inline-block;
-      padding: 10px;
-      margin-left: -10px;
+    .body-copy {
+      font-size: 16px;
+      margin-top: 16px;
     }
 
-    @media screen and (max-width: 768px) {
-      .wrapper {
-        padding: 112px 30px;
-        font-size: 24px;
-      }
-      .hide-mobile {
-        display: none;
-      }
+    .seperator {
+      margin-top: 128px;
+      border-top: 1px solid;
+      border-color: #2B2B2B;
     }
+
+    .case-studies {
+      margin-top: 128px;
+    }
+
+    .work-link {
+      margin-top: 32px;
+    }
+
   </style>
 </head>
-<body>
-  <div class="wrapper">
-    <h1 class="bold">
-      <!-- <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="7" cy="7" r="7" fill="black"/>
-        <rect x="3" y="4" width="2" height="2" fill="white"/>
-        <rect x="9" y="4" width="2" height="2" fill="white"/>
-        <rect x="5" y="8" width="4" height="2" fill="white"/>
-      </svg> -->
-    </h1>
-    <nav id="nav">
-      <ul>
-        <li><a class="nav" href="mailto:imtommyroberts@gmail.com">Contact</a></li>
-        <li><a class="nav" href="https://twitter.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-        <li><a class="nav" href="https://github.com/imtommyroberts/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a class="nav" href="https://www.are.na/tommy-roberts" target="_blank" rel="noopener noreferrer">Arena</a></li>
-        <li><a class="nav" href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank" rel="noopener noreferrer">Runescape HiScores</a></li>
-      </ul>
-    </nav>
-    
-    <section>
-      <p>
-        Hi I'm Tommy - a product designer working out of London 🌟. 
-      </p>
-      <p>
-        Following ~6 years of working independently I'm searching for new challenges in the form of a full time role. My new site + portfolio is a WIP, but if you'd like to get in touch about an opportunity, see my work, just chat, then DM me on <a class="nav" href="https://twitter.com/imtommyroberts" target="_blank" rel="noopener noreferrer">twitter</a> or email me here: imtommyroberts@gmail.com
-      </p>
-    <!--
-      <p>
-        Alongside personal projects, I'm currently taking on select freelance work, if you'd like to discuss that or anything else don't hesitate to <a class="sourcegraph" href="mailto:imtommyroberts@gmail.com"  target="_blank" rel="noopener noreferrer">get in touch</a>.
-      </p>
-    -->
-      <picture>
-        <source srcset="img/mobile.gif" media="(max-width: 684px)">
-        <source srcset="img/desktop.gif">
-        <img id="lenny" src="img/desktop.gif" alt="cat with tongue sticking out dancing"> 
-      </picture>
-    </section>
 
-    <!--
-    <footer>
-      <p>
-        Bodged together by me
-      </p>
-      <p>
-        mc.imtommyroberts.com for minecraft
-      </p>
-    </footer>
-    -->
+<body>
+  <div>
+    <p class="home-chat">@imtommyroberts or imtommyroberts@gmail.com to chat.</p>
+    <h1>I'm Tommy, a product designer living in London 🌧</h1>
+    <p class="body-copy">I enjoy craft, writing, talking about design, and making nice things with other people. I’ve worked with early stage startups, enterprises and even shipped some of my own products.</p>
+    <p class="body-copy">Sometimes I study life drawing + sculpture, go for really long walks, learn about local history, and talk to my cat.</p>
+    <p class="body-copy">Note: my portfolio is a WIP!</p>
+    <hr class="seperator">
+    <h1 class="case-studies">Case studies</h1>
+    <p class="work-link">wowpvp.gg [Live] [TBA] 👉</p>
+    <p class="work-link">Activtrades [Live] [TBA] 🔑</p>
+    <p class="work-link">Candles [Live] [TBA] 🔑</p>
   </div>
 </body>
+
 </html>
