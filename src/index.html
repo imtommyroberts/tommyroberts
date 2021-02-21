@@ -10,6 +10,7 @@
   <meta name="description" content="Tommy Roberts is a product designer">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Petrona:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
     body {
       color: #E1E1E1;
@@ -21,7 +22,7 @@
     }
 
     h1 {
-      margin-top: 64px;
+      margin-top: 128px;
       margin-bottom: 32px;
       font-size: 20px;
       font-family: 'Petrona', serif;
@@ -31,9 +32,25 @@
       font-weight: 700;
     }
 
+    a {
+      text-decoration: underline;
+      color: #E1E1E1;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: red;
+      font-family: 'Creepster', serif;
+    }
+
+    a:visited {
+      text-decoration: underline;
+    }
+
     .home-chat {
-      margin-top: 128px;
+      margin-top: 64px;
       font-size: 12px;
+      color: #ccc
     }
 
     .body-copy {
@@ -55,21 +72,36 @@
       margin-top: 16px;
     }
 
+    .home {
+      margin-bottom: 500px;
+    }
+
+    .other-link-resources {
+      text-decoration: line-through;
+    }
+
   </style>
 </head>
 
 <body>
-  <div>
-    <p class="home-chat">@imtommyroberts or imtommyroberts@gmail.com to chat.</p>
+  <div class="home">
     <h1>I'm Tommy, a product designer living in London 🌧</h1>
     <p class="body-copy">I enjoy craft, writing, talking about design, and making nice things with other people. I’ve worked with early stage startups, enterprises and even shipped some of my own products.</p>
     <p class="body-copy">Sometimes I study life drawing + sculpture, go for really long walks, learn about local history, and talk to my cat.</p>
-    <p class="body-copy">Note: my portfolio is a WIP!</p>
+    <p class="home-chat">@imtommyroberts or imtommyroberts@gmail.com to chat.</p>
     <hr class="seperator">
     <h1 class="case-studies">Case studies</h1>
     <p class="work-link">wowpvp.gg [Live] [TBA] 👉</p>
     <p class="work-link">Activtrades [Live] [TBA] 🔑</p>
     <p class="work-link">Candles [Live] [TBA] 🔑</p>
+    <hr class="seperator">
+    <h1 class="case-studies">Other links</h1>
+    <p class="other-link"><a href="https://twitter.com/home" target="_blank">Twitter</a></p>
+    <p class="other-link-resources">Resources</p>
+    <p class="other-link"><a href="https://github.com/imtommyroberts" target="_blank">GitHub</a></p>
+    <p class="other-link"><a href="https://www.are.na/tommy-roberts" target="_blank">Arena</a></p>
+    <p class="other-link"><a href="https://letterboxd.com/shush/" target="_blank">Letterboxd</a></p>
+    <p class="other-link"><a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=ux%A0vs%A0ui" target="_blank">Runescape Hiscores</a></p>
   </div>
 </body>
 
