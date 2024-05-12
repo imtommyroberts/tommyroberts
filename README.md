@@ -2,7 +2,7 @@
 
 **big old WIP, that's this readme, the linked readme's, and just me in general ;)**
 
-You can read more about me on my [website](https://www.imtommyroberts.com/).
+You can read more about me on my [website](https://www.tommyroberts.xyz/).
 
 Here is a link to my [portfolio readme].
 
